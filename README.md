@@ -19,7 +19,8 @@ Institute-Hub is a comprehensive platform designed to streamline the management 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0b29832b-e73c-400e-b1ee-72be31f871d2" width="400" />
-  <img src="https://github.com/user-attachments/assets/b77a2111-240d-4604-bc99-ee3943513d5a" width="400" />
+  <img src="https://github.com/user-attachments/assets/dd87dcfb-7a6a-4e40-b0f9-d8f5d0643abe
+" width="400" />
 </p>
 
 <p align="center">
