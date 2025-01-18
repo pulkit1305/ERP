@@ -19,26 +19,32 @@ Institute-Hub is a comprehensive platform designed to streamline the management 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0b29832b-e73c-400e-b1ee-72be31f871d2" width="400" />
-  <img src="https://github.com/user-attachments/assets/dd87dcfb-7a6a-4e40-b0f9-d8f5d0643abe
-" width="400" />
+  <img src="https://github.com/user-attachments/assets/98de9da6-75b3-4a0c-a68b-b78ec33119ab" width="400" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/98de9da6-75b3-4a0c-a68b-b78ec33119ab" width="400" />
-  <img src="https://github.com/user-attachments/assets/42f57d21-e5cb-4a30-8f03-6a9911a312b0" width="400" />
+  <img src="https://github.com/user-attachments/assets/dd87dcfb-7a6a-4e40-b0f9-d8f5d0643abe" width="400" />
+  <img src="https://github.com/user-attachments/assets/1f1dff0f-eefb-4b53-a075-494f62cfa279" width="400" />
 </p>
 
 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4754fed0-a105-492c-9d3b-c256e6437d02" width="400" />
-  <img src="https://github.com/user-attachments/assets/3a0c9995-ca71-4e5c-b8a8-9d2fb9cf253d" width="400" />
+  <img src="https://github.com/user-attachments/assets/5ad2a63d-16fe-4930-ae1f-75f0c9461f1c" width="400" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fca199be-2355-4f86-a7ca-b3c3664e7fcd" width="400" />
+  <img src="https://github.com/user-attachments/assets/b1e79de7-074f-4a73-a0d2-7f1102072516" width="400" />
+  <img src="https://github.com/user-attachments/assets/dda46146-62a3-4bde-ba64-525c814640c2" width="400" />
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6a3402d3-9fca-4f8b-b47b-4b48a5e87575" width="400" />
   <img src="https://github.com/user-attachments/assets/a6cb1f8a-667a-4613-923a-eaee279d3075" width="400" />
 </p>
+
+
+
 <p>
    <img src="https://github.com/user-attachments/assets/75d8abd8-ff55-40f0-93fe-c1a3928b1048" width="600" />
  
