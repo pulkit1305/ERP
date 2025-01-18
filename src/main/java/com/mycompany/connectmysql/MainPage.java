@@ -28,9 +28,11 @@ public class MainPage extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
         jButton1 = new javax.swing.JButton();
         Register = new javax.swing.JRadioButton();
         Login = new javax.swing.JRadioButton();
+        RegisterCompany = new javax.swing.JRadioButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -41,24 +43,30 @@ public class MainPage extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup1.add(Register);
         Register.setText("Register");
 
+        buttonGroup1.add(Login);
         Login.setText("Login");
+
+        buttonGroup1.add(RegisterCompany);
+        RegisterCompany.setText("Register Company");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(121, 121, 121)
-                .addComponent(jButton1)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(83, Short.MAX_VALUE)
+                .addGap(43, 43, 43)
                 .addComponent(Register)
-                .addGap(42, 42, 42)
-                .addComponent(Login)
-                .addGap(156, 156, 156))
+                .addGap(31, 31, 31)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton1)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(Login)
+                        .addGap(18, 18, 18)
+                        .addComponent(RegisterCompany, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(58, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -66,10 +74,11 @@ public class MainPage extends javax.swing.JFrame {
                 .addContainerGap(105, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Login)
-                    .addComponent(Register))
-                .addGap(18, 18, 18)
+                    .addComponent(Register)
+                    .addComponent(RegisterCompany))
+                .addGap(29, 29, 29)
                 .addComponent(jButton1)
-                .addGap(133, 133, 133))
+                .addGap(122, 122, 122))
         );
 
         pack();
@@ -77,15 +86,18 @@ public class MainPage extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        
-       JFrame window2;
-if (Login.isSelected()) {
-    window2 = new LoginForm();
-} else {
-    window2 = new RegisterForm();
-}
-window2.setVisible(true);
-this.setVisible(false);
+
+        JFrame window2;
+        if (Login.isSelected()) {
+            window2 = new LoginForm();
+            Register.isEnabled() ;
+        } else if(Register.isSelected()) {
+            window2 = new RegisterForm();
+        }else{
+            window2=new RegisterCompany();
+        }
+        window2.setVisible(true);
+        this.setVisible(false);
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -127,6 +139,8 @@ this.setVisible(false);
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JRadioButton Login;
     private javax.swing.JRadioButton Register;
+    private javax.swing.JRadioButton RegisterCompany;
+    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JButton jButton1;
     // End of variables declaration//GEN-END:variables
 }
